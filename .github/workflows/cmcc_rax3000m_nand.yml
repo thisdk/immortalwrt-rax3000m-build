@@ -34,7 +34,7 @@ jobs:
       - name: 0x04 - firmware start build !!
         run: |
           cd immortalwrt-mt798x
-          make download -j8
+          make download -j4
           make -j2
 
       - uses: actions/upload-artifact@v4
