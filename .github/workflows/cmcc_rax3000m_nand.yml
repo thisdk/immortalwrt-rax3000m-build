@@ -3,6 +3,8 @@ name: Immortalwrt Build CI
 on:
   schedule:
     - cron:  '0 10 * * *'
+  watch:
+    types: started
 
 jobs:
   build:
